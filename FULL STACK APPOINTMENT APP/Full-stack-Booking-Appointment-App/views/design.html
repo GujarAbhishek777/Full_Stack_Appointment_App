@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING APPOINTMENT APP</title>
+    
+</head>
+<body>
+    
+    <fieldset>
+     <legend>   <h2 style="color:blueviolet">BOOKING APPOINTMENT APP</h2></legend>
+     
+    <form id="form"  >
+        
+        <label for="name"><b>Enter NAME: </b></label>
+ <input type="text" id="name" name="name" ><br><br>
+ <label for="phone"><b>Enter Phone Number: </b></label>
+        <input type="number" id="phone" name="phone" ><br><br>
+        <label for="email"><b>Email: </b></label>
+        <input type="text" id="email" name="email"><br><br>
+        
+ <input type="hidden" id="id" name="id" ><br><br>
+        <button type="submit"  >SUBMIT</button>  
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend> <h2 style="color:blueviolet">DATA FROM TABLE</h2></legend>
+        <ul id="users"> </ul>
+           </fieldset>
+ <script src = 'script.js'></script>    
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>     
+</body>
+</html>
